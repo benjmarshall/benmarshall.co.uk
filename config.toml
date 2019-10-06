@@ -1,0 +1,70 @@
+baseURL = ""
+title   = "Ben Marshall"
+languageCode = "en-gb"
+theme = "friend-ng"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = false
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:filename/"
+
+[author]
+  name = "Ben Marshall"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage of Ben Marshall"
+  keywords = "homepage, blog, electronics, fpga, development, programming, mountain biking"
+  images = [""]
+
+  homeSubtitle = "FPGA Design Engineer, Avid Mountain Biker"
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  [params.logo]
+    logoText     = "$cd /home/"
+    logoHomeLink = "/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/benjmarshall"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
