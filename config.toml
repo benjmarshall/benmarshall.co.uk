@@ -12,7 +12,7 @@ publishDir   = "public"
 buildDrafts  = false
 buildFuture  = false
 buildExpored = false
-canonifyURLs = false
+canonifyURLs = true
 
 enableRobotsTXT = true
 enableGitInfo   = false
