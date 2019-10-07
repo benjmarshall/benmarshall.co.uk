@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "benmarshall.co.uk"
 title   = "Ben Marshall"
 languageCode = "en-gb"
 theme = "friend-ng"
